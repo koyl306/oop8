@@ -3,12 +3,10 @@ using System;
 namespace _8pr
 {
     delegate double FuncDel(double x);
-    
+
     class Program
     {
-        static void Main(string[] args)
-        {
-            public static double PositiveFunction(double x)
+        public static double PositiveFunction(double x)
         {
             return x * x + 4;
         }
